@@ -1,102 +1,269 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap Course</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body>
-    <div class="container-fluid">
-      <div class="navigation-bar">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-          <div class="container-fluid bg-white">
-            <a class="navbar-brand text-uppercase fs-1 fw-normal pe-5" href="#"
-              >Inner Peace</a
-            >
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
-                    >Home</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Blog</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Resources</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
-                </li>
-              </ul>
-              <form class="d-flex" role="search">
-                <input
-                  class="form-control me-2"
-                  type="search"
-                  placeholder="Search"
-                  aria-label="Search"
-                />
-                <button class="btn btn-outline-success" type="submit">
-                  Search
-                </button>
-              </form>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Inner Peace</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+  <body class="bg-white">
+    <div class="container-sm-fluid">
+        <!-- NAVIGATION BAR -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top navbar-light">
+            <div class="container-sm">
+              <a class="navbar-brand" href="#"><h1 class="h1 display-3">Inner Peace</h1></a>
+              <br>
+              <h6 class="h6 d-sm-block"></h6>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+                  <li class="nav-item mx-sm-5">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item mx-sm-5">
+                    <a class="nav-link" href="#">Blog</a>
+                  </li>
+                  <li class="nav-item mx-sm-5">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item dropdown mx-sm-5">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Resources
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Websites</a></li>
+                      <li><a class="dropdown-item" href="#">Books</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Helpline</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
             </div>
-          </div>
-        </nav>
-      </div>
-      <div class="container-fluid border border-0">
-        <img
-          src="images/image-1.webp"
-          class="rounded mx-0 float-start"
-          alt="girl lying on a field with eyes closed"
-        />
-            <div class="col text-center border border-0 justify-content-center">
-                <h2 class="h2 mb-5 mt-5">My Thoughts</h2>
-                <div class="card mx-auto" style="width: 30rem">
-                  <img
-                    src="images/image-2.jpg"
-                    class="card-img-top"
-                    alt="a flower in sunset"
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title mb-2 mt-2">Detoxing my Social Media Feed</h5>
-                    <p class="card-text pb-3 pt-3">
-                      Create a blog post subtitle that summarizes your post in a few
-                      short, punchy sentences and entices your audience to continue
-                      reading...
-                    </p>
-                    <a href="#" class="btn btn-primary mb-3 mt-3">All Posts</a>
+          </nav>
+          <!-- INTRODUCTION PART -->
+          <div class="container-sm-fluid">
+            <div class="row">
+              <div class="col-sm" style="padding: 0;">
+                <img src="images/image-1.jpg" class="img-fluid" alt="Woman lying on green grass with eyes closed">
+              </div>
+              <div class="col-sm mt-sm-auto mb-sm-auto">
+                <br>
+                <div>
+                    <div class="container">
+                        <h2 class="h2 text-sm-center px-sm-5">My Thoughts</h2>
+                    </div>
+                </div>
+                <div class="card mx-sm-auto px-sm-5 border border-0">
+                    <img src="images/image-2.jpg" class="card-img-top img-fluid" alt="flowers in the sunlight">
+                    <div class="card-body text-sm-center">
+                      <h5 class="card-title">Detoxing my social media feed</h5>
+                      <p class="card-text">Create a blog post subtitle that summarizes your post in a few short punchy sentences and entices your audience to continue reading...</p>
+                      <a href="#" class="btn btn-outline-success">All Posts</a>
+                    </div>
                   </div>
+              </div>
+            </div>
+        </div>
+        <!-- RECENT POSTS -->
+        <br>
+        <br>
+        <!-- <hr> -->
+        <div class="container-sm text-left">
+            <div class="row mt-sm-5 mb-sm-5">
+                <div class="col-sm">
+                    <h2 class="h2 display-4">Recent Posts</h2>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-sm" style="padding: 0;">
+                    <img src="images/image-3.jpg" class="img-fluid w-100 " alt="feet in white sneakers on a pavement">
+                </div>
+                <div class="col-sm  pt-2 pb-2 ps-sm-5 pe-sm-5">
+                    <div class="container-sm">
+                        <h6 class="h6 text-muted fw-light">May 1 &bull; 2 mins</h6>
+                    </div>
+                    <div class="container-sm pt-4">
+                        <h3 class="fw-normal fs-1">The one thing I would tell to my 16 year old self</h3>
+                    </div>
+                    <div class="container-sm pt-4">
+                        <h5 class="fw-light fs-6">Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading...</h5>
+                    </div>
+                    <div>
+                        <br>
+                        <br>
+                        <br>
+                        <!-- <br> -->
+                    </div>
+                    <div>
+                        <hr>
+                    </div>
+                    <div class="container-sm">
+                        <h6 class="h6 text-muted fw-light"><i class="fa fa-comment" aria-hidden="true"></i> 0 Comments</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-sm-5 mb-sm-5 align-items-center">
+                <div class="col-sm border border-2" style="padding: 0;">
+                    <img src="images/image-4.jpg" class="img-fluid w-100 " alt="human in red bean scrolling through a phone">
+                </div>
+                <div class="col-sm  pt-2 pb-2 ps-sm-5 pe-sm-5">
+                    <div class="container-sm">
+                        <h6 class="h6 text-muted fw-light">May 1 &bull; 5 mins</h6>
+                    </div>
+                    <div class="container-sm pt-4">
+                        <h3 class="fw-normal fs-1">Can't stop scrolling through my friends' feed?</h3>
+                    </div>
+                    <div class="container-sm pt-4">
+                        <h5 class="fw-light fs-6">Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading...</h5>
+                    </div>
+                    <div>
+                        <br>
+                        <br>
+                        <br>
+                        <!-- <br> -->
+                    </div>
+                    <div>
+                        <hr>
+                    </div>
+                    <div class="container-sm">
+                        <h6 class="h6 text-muted fw-light"><i class="fa fa-comment" aria-hidden="true"></i> 2 Comments</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-sm-5 mb-sm-5 align-items-center">
+                <div class="col-sm border border-2" style="padding: 0;">
+                    <img src="images/image-5.jpg" class="img-fluid w-100 " alt="human in red bean scrolling through a phone">
+                </div>
+                <div class="col-sm pt-2 pb-2 pe-sm-5">
+                    <div class="container-sm">
+                        <h6 class="h6 text-muted fw-light">April 1 &bull; 3 mins</h6>
+                    </div>
+                    <div class="container-sm pt-4">
+                        <h3 class="fw-normal fs-1">How I stopped being afraid of bring weak</h3>
+                    </div>
+                    <div class="container-sm pt-4">
+                        <h5 class="fw-light fs-6">Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading...</h5>
+                    </div>
+                    <div>
+                        <br>
+                        <br>
+                        <br>
+                        <!-- <br> -->
+                    </div>
+                    <div>
+                        <hr>
+                    </div>
+                    <div class="container-sm">
+                        <h6 class="h6 text-muted fw-light"><i class="fa fa-comment" aria-hidden="true"></i> 2 Comments</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-sm-5 mb-sm-5 align-items-center">
+                <div class="col-sm border border-2" style="padding: 0;">
+                    <img src="images/image-6.jpg" class="img-fluid w-100 " alt="human in red bean scrolling through a phone">
+                </div>
+                <div class="col-sm pt-2 pb-2 ps-sm-5 pe-sm-5">
+                    <div class="container-sm">
+                        <h6 class="h6 text-muted fw-light">February 1 &bull; 2 mins</h6>
+                    </div>
+                    <div class="container-sm pt-4">
+                        <h3 class="fw-normal fs-1">Five great side effects of running with music</h3>
+                    </div>
+                    <div class="container-sm pt-4">
+                        <h5 class="fw-light fs-6">Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading...</h5>
+                    </div>
+                    <div>
+                        <br>
+                        <br>
+                        <br>
+                        <!-- <br> -->
+                    </div>
+                    <div>
+                        <hr>
+                    </div>
+                    <div class="container-sm">
+                        <h6 class="h6 text-muted fw-light"><i class="fa fa-comment" aria-hidden="true"></i>4 Comments</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-sm-5 mb-sm-5 align-items-center">
+                <div class="col-sm border border-2" style="padding: 0;">
+                    <img src="images/image-7.jpg" class="img-fluid w-100 " alt="human in red bean scrolling through a phone">
+                </div>
+                <div class="col-sm pt-2 pb-2 pe-sm-5">
+                    <div class="container-sm">
+                        <h6 class="h6 text-muted fw-light">February 1 &bull; 3 mins</h6>
+                    </div>
+                    <div class="container-sm pt-4">
+                        <h3 class="fw-normal fs-1">Five things that would make you sleep better at night</h3>
+                    </div>
+                    <div class="container-sm pt-4">
+                        <h5 class="fw-light fs-6">Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading...</h5>
+                    </div>
+                    <div>
+                        <br>
+                        <br>
+                        <br>
+                        <!-- <br> -->
+                    </div>
+                    <div>
+                        <hr>
+                    </div>
+                    <div class="container-sm">
+                        <h6 class="h6 text-muted fw-light"><i class="fa fa-comment" aria-hidden="true"></i> 6 Comments</h6>
+                    </div>
                 </div>
             </div>
         </div>
-      </div>
-      <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"
-      ></script>
+        <!-- QUOTE BLOCK -->
+        <div class="container-sm-fluid">
+            <div class="d-flex flex-sm-row-reverse flex-wrap align-items-center">
+                <div class="col-sm" style="padding: 0;">
+                    <img src="images/image-8.jpg" class="img-fluid w-100" alt="winnie-the-pooh">
+                </div>
+                <div class="col-sm">
+                    <div class="container ms-sm-0 ps-sm-5">
+                        <figure class="text-center ">
+                            <blockquote class="blockquote">
+                              <p class="display-1">"I always get to where I'm going by walking away from where I have been"</p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer">
+                              Winnie the Pooh <cite title="Source Title">A.A. Milne</cite>
+                            </figcaption>
+                          </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- AbOUT -->
+        <div class="container-sm-fluid">
+            <div class="d-flex flex-sm-row flex-wrap align-items-center">
+                <div class="col-sm" style="padding: 0%;">
+                    <img src="images/image-9.jpg" class="img-fluid w-100" alt="woman sitting on a staircase holding a cup">
+                </div>
+                <div class="col-sm">
+                    <div class="container mx-sm-5 px-sm-5">
+                        <figure class="text-left">
+                            <div class="d-flex flex-column justify-content-sm-around">
+                                <h3 class="display-1 pe-sm-5 me-sm-5 pt-sm-5 mt-sm-5 pb-sm-2 mb-sm-2">Hi, I'm Dena</h3>
+                                <h2 class="fs-3 fw-light pe-sm-5 me-sm-5 pt-sm-2 mt-sm-2 pb-sm-2 mb-sm-2">A mental health blogger. Passionate about sharing thoughts and information on everything that makes my days better.</h2>
+                                <h4 class="fs-5 fw-lighter pe-sm-5 me-sm-5 pt-sm-2 mt-sm-2 pb-sm-2 mb-sm-2">I'm a paragraph. Click here to add your own text and edit me. It is easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you.​</h4>
+                            </div>
+                            <div></div>
+                          </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     </div>
   </body>
 </html>
