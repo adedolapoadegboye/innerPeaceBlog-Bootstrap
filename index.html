@@ -1,269 +1,646 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Inner Peace</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
-</head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
   <body class="bg-white">
     <div class="container-sm-fluid">
-        <!-- NAVIGATION BAR -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top navbar-light">
-            <div class="container-sm">
-              <a class="navbar-brand" href="#"><h1 class="h1 display-3">Inner Peace</h1></a>
-              <br>
-              <h6 class="h6 d-sm-block"></h6>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+      <!-- NAVIGATION BAR -->
+      <nav
+        class="navbar navbar-expand-lg bg-body-tertiary sticky-top navbar-light"
+      >
+        <div class="container-sm">
+          <a class="navbar-brand" href="#"
+            ><h1 class="h1 display-3">Inner Peace</h1></a
+          >
+          <br />
+          <h6 class="h6 d-sm-block"></h6>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+              <li class="nav-item mx-sm-5">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item mx-sm-5">
+                <a class="nav-link" href="#Blog">Blog</a>
+              </li>
+              <li class="nav-item mx-sm-5">
+                <a class="nav-link" href="#About">About</a>
+              </li>
+              <li class="nav-item mx-sm-5">
+                <a class="nav-link" href="#Join">Join</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
               </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
-                  <li class="nav-item mx-sm-5">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item mx-sm-5">
-                    <a class="nav-link" href="#">Blog</a>
-                  </li>
-                  <li class="nav-item mx-sm-5">
-                    <a class="nav-link" href="#">About</a>
-                  </li>
-                  <li class="nav-item dropdown mx-sm-5">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Resources
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Websites</a></li>
-                      <li><a class="dropdown-item" href="#">Books</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Helpline</a></li>
-                    </ul>
-                  </li>
-                </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- INTRODUCTION PART -->
+      <div class="container-sm-fluid">
+        <div class="row">
+          <div class="col-sm" style="padding: 0">
+            <img
+              src="images/image-1.jpg"
+              class="img-fluid"
+              alt="Woman lying on green grass with eyes closed"
+            />
+          </div>
+          <div class="col-sm mt-sm-auto mb-sm-auto">
+            <br />
+            <div>
+              <div class="container">
+                <h2 class="h2 text-sm-center px-sm-5">My Thoughts</h2>
               </div>
             </div>
-          </nav>
-          <!-- INTRODUCTION PART -->
-          <div class="container-sm-fluid">
-            <div class="row">
-              <div class="col-sm" style="padding: 0;">
-                <img src="images/image-1.jpg" class="img-fluid" alt="Woman lying on green grass with eyes closed">
+            <div class="card mx-sm-auto px-sm-5 border border-0">
+              <img
+                src="images/image-2.jpg"
+                class="card-img-top img-fluid"
+                alt="flowers in the sunlight"
+              />
+              <div class="card-body text-sm-center">
+                <h5 class="card-title">Detoxing my social media feed</h5>
+                <p class="card-text">
+                  Create a blog post subtitle that summarizes your post in a few
+                  short punchy sentences and entices your audience to continue
+                  reading...
+                </p>
+                <a href="#" class="btn btn-outline-success">All Posts</a>
               </div>
-              <div class="col-sm mt-sm-auto mb-sm-auto">
-                <br>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- RECENT POSTS -->
+      <br />
+      <br />
+      <!-- <hr> -->
+      <div class="container-sm text-left" id="Blog">
+        <div class="row mt-sm-5 mb-sm-5">
+          <div class="col-sm">
+            <h2 class="h2 display-4" >Recent Posts</h2>
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-sm" style="padding: 0">
+            <img
+              src="images/image-3.jpg"
+              class="img-fluid w-100"
+              alt="feet in white sneakers on a pavement"
+            />
+          </div>
+          <div class="col-sm pt-2 pb-2 ps-sm-5 pe-sm-5">
+            <div class="container-sm">
+              <h6 class="h6 text-muted fw-light">May 1 &bull; 2 mins</h6>
+            </div>
+            <div class="container-sm pt-4">
+              <h3 class="fw-normal fs-1">
+                The one thing I would tell to my 16 year old self
+              </h3>
+            </div>
+            <div class="container-sm pt-4">
+              <h5 class="fw-light fs-6">
+                Create a blog post subtitle that summarizes your post in a few
+                short, punchy sentences and entices your audience to continue
+                reading...
+              </h5>
+            </div>
+            <div>
+              <br />
+              <br />
+              <br />
+              <!-- <br> -->
+            </div>
+            <div>
+              <hr />
+            </div>
+            <div class="container-sm">
+              <h6 class="h6 text-muted fw-light">
+                <i class="fa fa-comment" aria-hidden="true"></i> 0 Comments
+              </h6>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-sm-5 mb-sm-5 align-items-center">
+          <div class="col-sm border border-2" style="padding: 0">
+            <img
+              src="images/image-4.jpg"
+              class="img-fluid w-100"
+              alt="human in red bean scrolling through a phone"
+            />
+          </div>
+          <div class="col-sm pt-2 pb-2 ps-sm-5 pe-sm-5">
+            <div class="container-sm">
+              <h6 class="h6 text-muted fw-light">May 1 &bull; 5 mins</h6>
+            </div>
+            <div class="container-sm pt-4">
+              <h3 class="fw-normal fs-1">
+                Can't stop scrolling through my friends' feed?
+              </h3>
+            </div>
+            <div class="container-sm pt-4">
+              <h5 class="fw-light fs-6">
+                Create a blog post subtitle that summarizes your post in a few
+                short, punchy sentences and entices your audience to continue
+                reading...
+              </h5>
+            </div>
+            <div>
+              <br />
+              <br />
+              <br />
+              <!-- <br> -->
+            </div>
+            <div>
+              <hr />
+            </div>
+            <div class="container-sm">
+              <h6 class="h6 text-muted fw-light">
+                <i class="fa fa-comment" aria-hidden="true"></i> 2 Comments
+              </h6>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-sm-5 mb-sm-5 align-items-center">
+          <div class="col-sm border border-2" style="padding: 0">
+            <img
+              src="images/image-5.jpg"
+              class="img-fluid w-100"
+              alt="human in red bean leaning against a wall"
+            />
+          </div>
+          <div class="col-sm pt-2 pb-2 pe-sm-5">
+            <div class="container-sm">
+              <h6 class="h6 text-muted fw-light">April 1 &bull; 3 mins</h6>
+            </div>
+            <div class="container-sm pt-4">
+              <h3 class="fw-normal fs-1">
+                How I stopped being afraid of bring weak
+              </h3>
+            </div>
+            <div class="container-sm pt-4">
+              <h5 class="fw-light fs-6">
+                Create a blog post subtitle that summarizes your post in a few
+                short, punchy sentences and entices your audience to continue
+                reading...
+              </h5>
+            </div>
+            <div>
+              <br />
+              <br />
+              <br />
+              <!-- <br> -->
+            </div>
+            <div>
+              <hr />
+            </div>
+            <div class="container-sm">
+              <h6 class="h6 text-muted fw-light">
+                <i class="fa fa-comment" aria-hidden="true"></i> 2 Comments
+              </h6>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-sm-5 mb-sm-5 align-items-center">
+          <div class="col-sm border border-2" style="padding: 0">
+            <img
+              src="images/image-6.jpg"
+              class="img-fluid w-100"
+              alt="human in red bean scrolling through a phone"
+            />
+          </div>
+          <div class="col-sm pt-2 pb-2 ps-sm-5 pe-sm-5">
+            <div class="container-sm">
+              <h6 class="h6 text-muted fw-light">February 1 &bull; 2 mins</h6>
+            </div>
+            <div class="container-sm pt-4">
+              <h3 class="fw-normal fs-1">
+                Five great side effects of running with music
+              </h3>
+            </div>
+            <div class="container-sm pt-4">
+              <h5 class="fw-light fs-6">
+                Create a blog post subtitle that summarizes your post in a few
+                short, punchy sentences and entices your audience to continue
+                reading...
+              </h5>
+            </div>
+            <div>
+              <br />
+              <br />
+              <br />
+              <!-- <br> -->
+            </div>
+            <div>
+              <hr />
+            </div>
+            <div class="container-sm">
+              <h6 class="h6 text-muted fw-light">
+                <i class="fa fa-comment" aria-hidden="true"></i> 4 Comments
+              </h6>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-sm-5 mb-sm-5 align-items-center">
+          <div class="col-sm border border-2" style="padding: 0">
+            <img
+              src="images/image-7.jpg"
+              class="img-fluid w-100"
+              alt="human in red bean scrolling through a phone"
+            />
+          </div>
+          <div class="col-sm pt-2 pb-2 pe-sm-5">
+            <div class="container-sm">
+              <h6 class="h6 text-muted fw-light">February 1 &bull; 3 mins</h6>
+            </div>
+            <div class="container-sm pt-4">
+              <h3 class="fw-normal fs-1">
+                Five things that would make you sleep better at night
+              </h3>
+            </div>
+            <div class="container-sm pt-4">
+              <h5 class="fw-light fs-6">
+                Create a blog post subtitle that summarizes your post in a few
+                short, punchy sentences and entices your audience to continue
+                reading...
+              </h5>
+            </div>
+            <div>
+              <br />
+              <br />
+              <br />
+              <!-- <br> -->
+            </div>
+            <div>
+              <hr />
+            </div>
+            <div class="container-sm">
+              <h6 class="h6 text-muted fw-light">
+                <i class="fa fa-comment" aria-hidden="true"></i> 6 Comments
+              </h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- QUOTE BLOCK -->
+      <div class="container-sm-fluid">
+        <div class="d-flex flex-sm-row-reverse flex-wrap align-items-center">
+          <div class="col-sm" style="padding: 0">
+            <img
+              src="images/image-8.jpg"
+              class="img-fluid w-100"
+              alt="winnie-the-pooh"
+            />
+          </div>
+          <div class="col-sm">
+            <div class="container ms-sm-0 ps-sm-5">
+              <figure class="text-center">
+                <blockquote class="blockquote">
+                  <p class="display-1">
+                    "I always get to where I'm going by walking away from where
+                    I have been"
+                  </p>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                  Winnie the Pooh <cite title="Source Title">A.A. Milne</cite>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- AbOUT -->
+      <div class="container-sm-fluid" id="About">
+        <div class="d-flex flex-sm-row flex-wrap align-items-center">
+          <div class="col-sm" style="padding: 0%">
+            <img
+              src="images/image-9.jpg"
+              class="img-fluid w-100"
+              alt="woman sitting on a staircase holding a cup"
+            />
+          </div>
+          <div class="col-sm">
+            <div class="container mx-sm-5 px-sm-5">
+              <figure class="text-left">
+                <div class="d-flex flex-column justify-content-sm-around">
+                  <h3
+                    class="display-1 pe-sm-5 me-sm-5 pt-sm-5 mt-sm-5 pb-sm-2 mb-sm-2"
+                  >
+                    Hi, I'm Dena
+                  </h3>
+                  <h2
+                    class="fs-3 fw-light pe-sm-5 me-sm-5 pt-sm-2 mt-sm-2 pb-sm-2 mb-sm-2"
+                  >
+                    A mental health blogger. Passionate about sharing thoughts
+                    and information on everything that makes my days better.
+                  </h2>
+                  <h4
+                    class="fs-5 fw-lighter pe-sm-5 me-sm-5 pt-sm-2 mt-sm-2 pb-sm-2 mb-sm-2"
+                  >
+                    I'm a paragraph. Click here to add your own text and edit
+                    me. It is easy. Just click “Edit Text” or double click me to
+                    add your own content and make changes to the font. Feel free
+                    to drag and drop me anywhere you like on your page. I’m a
+                    great place for you to tell a story and let your users know
+                    a little more about you.​
+                  </h4>
+                </div>
                 <div>
-                    <div class="container">
-                        <h2 class="h2 text-sm-center px-sm-5">My Thoughts</h2>
-                    </div>
+                  <a href="#" class="btn btn-outline-success">Read more</a>
                 </div>
-                <div class="card mx-sm-auto px-sm-5 border border-0">
-                    <img src="images/image-2.jpg" class="card-img-top img-fluid" alt="flowers in the sunlight">
-                    <div class="card-body text-sm-center">
-                      <h5 class="card-title">Detoxing my social media feed</h5>
-                      <p class="card-text">Create a blog post subtitle that summarizes your post in a few short punchy sentences and entices your audience to continue reading...</p>
-                      <a href="#" class="btn btn-outline-success">All Posts</a>
-                    </div>
-                  </div>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- IMAGES -->
+      <div class="container-sm-fluid pt-sm-5 mt-sm-5">
+        <div class="row">
+          <div class="col-sm">
+            <h2 class="display-2 text-center">SMILE, ALWAYS!</h2>
+          </div>
+        </div>
+        <div class="container-sm pt-sm-5 mt-sm-5">
+          <div class="row">
+            <div class="col-sm">
+              <img
+                src="images/smile-1.jpg"
+                class="img-fluid"
+                alt="woman sitting on a staircase holding a cup"
+              />
+            </div>
+            <div class="col-sm pb-sm-5">
+              <img
+                src="images/smile-2.jpg"
+                class="img-fluid w-100"
+                alt="woman sitting on a staircase holding a cup"
+              />
+            </div>
+            <div class="col-sm">
+              <img
+                src="images/smile-3.jpg"
+                class="img-fluid"
+                alt="woman sitting on a staircase holding a cup"
+              />
+            </div>
+            <div class="col-sm">
+              <img
+                src="images/smile-4.jpg"
+                class="img-fluid"
+                alt="woman sitting on a staircase holding a cup"
+              />
+            </div>
+            <div class="col-sm">
+              <img
+                src="images/smile-5.jpg"
+                class="img-fluid"
+                alt="woman sitting on a staircase holding a cup"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm">
+              <img
+                src="images/smile-6.jpg"
+                class="img-fluid"
+                alt="woman sitting on a staircase holding a cup"
+              />
+            </div>
+            <div class="col-sm">
+              <img
+                src="images/smile-7.jpg"
+                class="img-fluid"
+                alt="woman sitting on a staircase holding a cup"
+              />
+            </div>
+            <div class="col-sm">
+              <img
+                src="images/smile-8.jpg"
+                class="img-fluid"
+                alt="woman sitting on a staircase holding a cup"
+              />
+            </div>
+            <div class="col-sm">
+              <img
+                src="images/smile-9.jpg"
+                class="img-fluid"
+                alt="woman sitting on a staircase holding a cup"
+              />
+            </div>
+            <div class="col-sm">
+              <img
+                src="images/smile-10.jpg"
+                class="img-fluid"
+                alt="woman sitting on a staircase holding a cup"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <!-- NEWSLETTER -->
+      <div class="container-sm pt-sm-5" id="Join">
+        <div class="row">
+          <div class="col-sm">
+            <h2 class="display-1 text-center">Join the Conversation!</h2>
+            <h4 class="fs-6 text-center">
+              Get the content you need, when you need it
+            </h4>
+          </div>
+        </div>
+        <br />
+        <br />
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="inputFirstName4" class="form-label">First Name</label>
+            <input type="text" class="form-control" id="inputFirstName4" />
+          </div>
+          <div class="col-md-6">
+            <label for="inputLastName4" class="form-label">Last Name</label>
+            <input type="text" class="form-control" id="inputLastName4" />
+          </div>
+          <div class="col-12">
+            <label for="inputEmailAddress" class="form-label"
+              >Email Address</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="inputEmailAddress"
+              placeholder="abc@example.com"
+            />
+          </div>
+          <div class="col-12 text-center">
+            <a href="#" class="btn btn-outline-success text-center">Submit</a>
+          </div>
+        </form>
+      </div>
+      <br>
+      <br>
+      <!-- FOOTER -->
+      <footer class="text-center text-lg-start bg-secondary text-muted text-light">
+        <!-- Section: Social media -->
+        <section
+          class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+        >
+          <!-- Left -->
+          <div class="me-5 d-none d-lg-block text-light">
+            <span>Get connected with us on social networks:</span>
+          </div>
+          <!-- Left -->
+
+          <!-- Right -->
+          <div>
+            <a href="" class="me-4 text-reset text-light bg-light">
+              <i class="fa fa-facebook"></i>
+            </a>
+            <a href="" class="me-4 text-reset text-light bg-light">
+              <i class="fa fa-twitter"></i>
+            </a>
+            <a href="" class="me-4 text-reset text-light bg-light">
+              <i class="fa fa-google"></i>
+            </a>
+            <a href="" class="me-4 text-reset text-light bg-light">
+              <i class="fa fa-instagram"></i>
+            </a>
+            <a href="" class="me-4 text-reset text-light bg-light">
+              <i class="fa fa-linkedin"></i>
+            </a>
+            <a href="" class="me-4 text-reset text-light bg-light">
+              <i class="fa fa-github"></i>
+            </a>
+          </div>
+          <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="">
+          <div class="container text-center text-md-start mt-5 text-light">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4 text-light">
+                  <i class="fa fa-gem me-3"></i>Inner Peace
+                </h6>
+                <p>
+                  Here you can use rows and columns to organize your footer
+                  content. Lorem ipsum dolor sit amet, consectetur adipisicing
+                  elit.
+                </p>
               </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Products</h6>
+                <p>
+                  <a href="#!" class="text-reset">Peace</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Tranquility</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Solace</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Hope</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
+                <p>
+                  <a href="#!" class="text-reset">Books</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Websites</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Organizations</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Helpline</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 ">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                <p><i class="fa fa-home me-3"></i> Calgary, AB</p>
+                <p>
+                  <i class="fa fa-envelope me-3"></i>
+                  info@example.com
+                </p>
+                <p><i class="fa fa-phone me-3"></i> + 01 234 567 88</p>
+                <p><i class="fa fa-print me-3"></i> + 01 234 567 89</p>
+              </div>
+              <!-- Grid column -->
             </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div
+          class="text-center p-4 text-light"
+          style="background-color: rgba(0, 0, 0, 0.05)"
+        >
+          © 2023 Copyright:
+          <a class="text-reset fw-bold" href="#"
+            >InnerPeaceBlog</a
+          >
         </div>
-        <!-- RECENT POSTS -->
-        <br>
-        <br>
-        <!-- <hr> -->
-        <div class="container-sm text-left">
-            <div class="row mt-sm-5 mb-sm-5">
-                <div class="col-sm">
-                    <h2 class="h2 display-4">Recent Posts</h2>
-                </div>
-            </div>
-            <div class="row align-items-center">
-                <div class="col-sm" style="padding: 0;">
-                    <img src="images/image-3.jpg" class="img-fluid w-100 " alt="feet in white sneakers on a pavement">
-                </div>
-                <div class="col-sm  pt-2 pb-2 ps-sm-5 pe-sm-5">
-                    <div class="container-sm">
-                        <h6 class="h6 text-muted fw-light">May 1 &bull; 2 mins</h6>
-                    </div>
-                    <div class="container-sm pt-4">
-                        <h3 class="fw-normal fs-1">The one thing I would tell to my 16 year old self</h3>
-                    </div>
-                    <div class="container-sm pt-4">
-                        <h5 class="fw-light fs-6">Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading...</h5>
-                    </div>
-                    <div>
-                        <br>
-                        <br>
-                        <br>
-                        <!-- <br> -->
-                    </div>
-                    <div>
-                        <hr>
-                    </div>
-                    <div class="container-sm">
-                        <h6 class="h6 text-muted fw-light"><i class="fa fa-comment" aria-hidden="true"></i> 0 Comments</h6>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-sm-5 mb-sm-5 align-items-center">
-                <div class="col-sm border border-2" style="padding: 0;">
-                    <img src="images/image-4.jpg" class="img-fluid w-100 " alt="human in red bean scrolling through a phone">
-                </div>
-                <div class="col-sm  pt-2 pb-2 ps-sm-5 pe-sm-5">
-                    <div class="container-sm">
-                        <h6 class="h6 text-muted fw-light">May 1 &bull; 5 mins</h6>
-                    </div>
-                    <div class="container-sm pt-4">
-                        <h3 class="fw-normal fs-1">Can't stop scrolling through my friends' feed?</h3>
-                    </div>
-                    <div class="container-sm pt-4">
-                        <h5 class="fw-light fs-6">Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading...</h5>
-                    </div>
-                    <div>
-                        <br>
-                        <br>
-                        <br>
-                        <!-- <br> -->
-                    </div>
-                    <div>
-                        <hr>
-                    </div>
-                    <div class="container-sm">
-                        <h6 class="h6 text-muted fw-light"><i class="fa fa-comment" aria-hidden="true"></i> 2 Comments</h6>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-sm-5 mb-sm-5 align-items-center">
-                <div class="col-sm border border-2" style="padding: 0;">
-                    <img src="images/image-5.jpg" class="img-fluid w-100 " alt="human in red bean scrolling through a phone">
-                </div>
-                <div class="col-sm pt-2 pb-2 pe-sm-5">
-                    <div class="container-sm">
-                        <h6 class="h6 text-muted fw-light">April 1 &bull; 3 mins</h6>
-                    </div>
-                    <div class="container-sm pt-4">
-                        <h3 class="fw-normal fs-1">How I stopped being afraid of bring weak</h3>
-                    </div>
-                    <div class="container-sm pt-4">
-                        <h5 class="fw-light fs-6">Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading...</h5>
-                    </div>
-                    <div>
-                        <br>
-                        <br>
-                        <br>
-                        <!-- <br> -->
-                    </div>
-                    <div>
-                        <hr>
-                    </div>
-                    <div class="container-sm">
-                        <h6 class="h6 text-muted fw-light"><i class="fa fa-comment" aria-hidden="true"></i> 2 Comments</h6>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-sm-5 mb-sm-5 align-items-center">
-                <div class="col-sm border border-2" style="padding: 0;">
-                    <img src="images/image-6.jpg" class="img-fluid w-100 " alt="human in red bean scrolling through a phone">
-                </div>
-                <div class="col-sm pt-2 pb-2 ps-sm-5 pe-sm-5">
-                    <div class="container-sm">
-                        <h6 class="h6 text-muted fw-light">February 1 &bull; 2 mins</h6>
-                    </div>
-                    <div class="container-sm pt-4">
-                        <h3 class="fw-normal fs-1">Five great side effects of running with music</h3>
-                    </div>
-                    <div class="container-sm pt-4">
-                        <h5 class="fw-light fs-6">Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading...</h5>
-                    </div>
-                    <div>
-                        <br>
-                        <br>
-                        <br>
-                        <!-- <br> -->
-                    </div>
-                    <div>
-                        <hr>
-                    </div>
-                    <div class="container-sm">
-                        <h6 class="h6 text-muted fw-light"><i class="fa fa-comment" aria-hidden="true"></i>4 Comments</h6>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-sm-5 mb-sm-5 align-items-center">
-                <div class="col-sm border border-2" style="padding: 0;">
-                    <img src="images/image-7.jpg" class="img-fluid w-100 " alt="human in red bean scrolling through a phone">
-                </div>
-                <div class="col-sm pt-2 pb-2 pe-sm-5">
-                    <div class="container-sm">
-                        <h6 class="h6 text-muted fw-light">February 1 &bull; 3 mins</h6>
-                    </div>
-                    <div class="container-sm pt-4">
-                        <h3 class="fw-normal fs-1">Five things that would make you sleep better at night</h3>
-                    </div>
-                    <div class="container-sm pt-4">
-                        <h5 class="fw-light fs-6">Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading...</h5>
-                    </div>
-                    <div>
-                        <br>
-                        <br>
-                        <br>
-                        <!-- <br> -->
-                    </div>
-                    <div>
-                        <hr>
-                    </div>
-                    <div class="container-sm">
-                        <h6 class="h6 text-muted fw-light"><i class="fa fa-comment" aria-hidden="true"></i> 6 Comments</h6>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- QUOTE BLOCK -->
-        <div class="container-sm-fluid">
-            <div class="d-flex flex-sm-row-reverse flex-wrap align-items-center">
-                <div class="col-sm" style="padding: 0;">
-                    <img src="images/image-8.jpg" class="img-fluid w-100" alt="winnie-the-pooh">
-                </div>
-                <div class="col-sm">
-                    <div class="container ms-sm-0 ps-sm-5">
-                        <figure class="text-center ">
-                            <blockquote class="blockquote">
-                              <p class="display-1">"I always get to where I'm going by walking away from where I have been"</p>
-                            </blockquote>
-                            <figcaption class="blockquote-footer">
-                              Winnie the Pooh <cite title="Source Title">A.A. Milne</cite>
-                            </figcaption>
-                          </figure>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- AbOUT -->
-        <div class="container-sm-fluid">
-            <div class="d-flex flex-sm-row flex-wrap align-items-center">
-                <div class="col-sm" style="padding: 0%;">
-                    <img src="images/image-9.jpg" class="img-fluid w-100" alt="woman sitting on a staircase holding a cup">
-                </div>
-                <div class="col-sm">
-                    <div class="container mx-sm-5 px-sm-5">
-                        <figure class="text-left">
-                            <div class="d-flex flex-column justify-content-sm-around">
-                                <h3 class="display-1 pe-sm-5 me-sm-5 pt-sm-5 mt-sm-5 pb-sm-2 mb-sm-2">Hi, I'm Dena</h3>
-                                <h2 class="fs-3 fw-light pe-sm-5 me-sm-5 pt-sm-2 mt-sm-2 pb-sm-2 mb-sm-2">A mental health blogger. Passionate about sharing thoughts and information on everything that makes my days better.</h2>
-                                <h4 class="fs-5 fw-lighter pe-sm-5 me-sm-5 pt-sm-2 mt-sm-2 pb-sm-2 mb-sm-2">I'm a paragraph. Click here to add your own text and edit me. It is easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you.​</h4>
-                            </div>
-                            <div></div>
-                          </figure>
-                    </div>
-                </div>
-            </div>
-        </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"
+      ></script>
     </div>
   </body>
 </html>
