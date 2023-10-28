@@ -36,3 +36,9 @@
     font-family: cursive;
   }
 }
+
+body {
+  overflow-x: hidden;
+}
+
+
