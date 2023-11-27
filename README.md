@@ -6,11 +6,11 @@
 
 <h2>Project Screenshots:</h2>
 
-<img src="https://github.com/adedolapoadegboye/innerPeaceBlog-Bootstrap/blob/main/Image%202023-11-26%20at%206.08%20PM.jpeg" alt="project-screenshot" width="500" height="200/">
+<img src="https://github.com/adedolapoadegboye/innerPeaceBlog-Bootstrap/blob/main/Image%202023-11-26%20at%206.08%20PM.jpeg" alt="project-screenshot" width="400" height="200/">
 
-<img src="https://github.com/adedolapoadegboye/innerPeaceBlog-Bootstrap/blob/main/Image%202023-11-26%20at%206.09%20PM.jpeg" alt="project-screenshot" width="800" height="200/">
+<img src="https://github.com/adedolapoadegboye/innerPeaceBlog-Bootstrap/blob/main/Image%202023-11-26%20at%206.09%20PM.jpeg" alt="project-screenshot" width="400" height="200/">
 
-<img src="https://github.com/adedolapoadegboye/innerPeaceBlog-Bootstrap/blob/main/Image%202023-11-26%20at%206.10%20PM.jpeg" alt="project-screenshot" width="800" height="200/">
+<img src="https://github.com/adedolapoadegboye/innerPeaceBlog-Bootstrap/blob/main/Image%202023-11-26%20at%206.10%20PM.jpeg" alt="project-screenshot" width="400" height="200/">
 
   
   
